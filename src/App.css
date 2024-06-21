@@ -1,0 +1,15 @@
+/* Tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html.light {
+  background-color: white;
+  color: black;
+}
+
+html.dark {
+  background-color: #1a202c;
+  color: white;
+}
